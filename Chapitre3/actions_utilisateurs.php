@@ -13,7 +13,7 @@ try {
 }
 $stmt = $pdo->prepare("UPDATE Utilisateur SET email = :email WHERE id = :id");
 $stmt->execute([
-    'email' => 'ehsafaa7@gmail.com',
+    'email' => 'ehsafaa5@gmail.com',
     'id' => 3
 ]);
 echo "Utilisateur mis à jour.";

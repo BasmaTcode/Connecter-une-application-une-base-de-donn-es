@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$dbname = 'soligdb';
+$dbname = 'solidb';
 $username = 'root';
 $password = '';
 

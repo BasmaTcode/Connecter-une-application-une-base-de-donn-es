@@ -3,7 +3,7 @@
 try {
 
     $host = "localhost";
-    $dbname = "blogdb";
+    $dbname = "solidb";
     $username = "root";
     $password = "";
 

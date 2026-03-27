@@ -5,7 +5,7 @@ class BlogArticle extends Article {
     private $auteur;
 
     public function __construct($titre, $contenu, $auteur) {
-        parent::__construct($titre, $contenu);
+        parent::__construct($titre, $contenu); 
         $this->auteur = $auteur;
     }
 

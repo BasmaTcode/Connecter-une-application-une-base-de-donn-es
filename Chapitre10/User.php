@@ -15,7 +15,7 @@ public function __construct($db){ // hna kankhazno connexion b database f constr
     // create
 public function create(){
       $sql = "INSERT INTO {$this->table} (nom, email) VALUES (:nom, :email)"; // hna kan3tiw requete SQL bash nzidu user,kanqulu l databse zidna uahd user
-      $stmt = $this->conn->prepare($sql); // hna kanwjdu query bash nkhdmuh mn baed , u bash tprotegina mn les infections SQL
+      $stmt = $this->conn->prepare($sql); // hna kanwjdu query bash nkhdmuh mn baed , u bash tprotegina mn les injections SQL
     return $stmt->execute([ 'nom' => $this->nom,'email' => $this->email]); // hna kanexecute query u kan3tiw les valeurs dial nom u email bash ytzadu f database
 
     // read

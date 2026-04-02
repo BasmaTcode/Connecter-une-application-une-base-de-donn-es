@@ -18,7 +18,7 @@ if ($_POST) { // hna kancheckiw ila kayn chi data jaya mn formulaire bash n3rfou
     }
 }
 ?>
-
+<link rel="stylesheet" href="prototype.css">
 <form method="POST">
     <input type="text" name="title" placeholder="Title"><br>
     <textarea name="content"></textarea><br>

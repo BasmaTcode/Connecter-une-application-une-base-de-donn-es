@@ -1,0 +1,120 @@
+/* =======================
+   Global Styles
+======================= */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff0f5; /* light baby pink */
+    color: #4a2c2a; /* soft dark text */
+    margin: 0;
+    padding: 0;
+}
+
+/* =======================
+   Container
+======================= */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffe4e1; /* soft pink card */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* =======================
+   Headings
+======================= */
+h1, h2 {
+    color: #d36c6c;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* =======================
+   Articles List
+======================= */
+.article {
+    background-color: #fff0f5;
+    border: 1px solid #f5c2c2;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.article:hover {
+    transform: scale(1.02);
+}
+
+.article h3 {
+    color: #d36c6c;
+    margin-top: 0;
+}
+
+.article p {
+    color: #4a2c2a;
+    line-height: 1.5;
+}
+
+/* =======================
+   Form Styles
+======================= */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff0f5;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #f5c2c2;
+    margin-bottom: 20px;
+}
+
+/* Inputs and Textarea */
+input[type="text"], textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #f5c2c2;
+    font-size: 16px;
+}
+
+/* Button */
+button {
+    background-color: #ffb6c1; /* baby pink */
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff85a2;
+}
+
+/* =======================
+   Links
+======================= */
+a {
+    text-decoration: none;
+    color: #d36c6c;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff85a2;
+}
+
+/* =======================
+   Footer (optional)
+======================= */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    color: #4a2c2a;
+}

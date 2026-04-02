@@ -13,3 +13,5 @@ while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
     echo $row['title'] . "<br>";
     echo $row['content'] . "<hr>";
 }
+?>
+<link rel="stylesheet" href="prototype.css">
